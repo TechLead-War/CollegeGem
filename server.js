@@ -4,6 +4,7 @@ const request = require('request');
 const _ = require("lodash");
 
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
@@ -134,8 +135,8 @@ app.post("/compose", function(req, res){
   res.redirect("/codingdoubts.html");
 });
 
-app.listen(process.env.PORT || 3000, function() {
-  console.log("Server is running");
+app.listen(PORT, function() {
+  console.log("Server is running at port " + PORT);
 });
 
 //b4482ebf4df9c35d43d29bddd782e19d-us2
