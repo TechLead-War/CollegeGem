@@ -12,7 +12,7 @@ This repo is available for contributing in #Hacktoberfest
 6. Happy hacking 🐱‍💻!.
 
 
-# HacktoberFest-2020
+## HacktoberFest-2020
 
 Open source is changing the world - one pull request at a time. 
 
