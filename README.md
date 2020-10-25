@@ -51,7 +51,6 @@ Contributing to open-source is easy.
   - improving the documentation
 - Push your work and Create a Pull Request
 
-[Click here for detailed explanation](/Contribute.md)
 
 ## What if my pull requests aren’t accepted?
 
