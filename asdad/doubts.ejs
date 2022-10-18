@@ -1,0 +1,20 @@
+<%- include("partials/header") -%>
+  <script type="text/javascript">
+    document.getElementsByTagName("body")[0].setAttribute("style", "margin-left: -8%");
+  </script>
+    <div class="container-fluid">
+      <div class="col-lg-12 notess fixx">
+          Ask Doubts  <a href="/compose" id = "post-new">[Post New]</a>
+      </div>
+    </div>
+
+    <hr>
+    <div class="note">
+      <% posts.forEach(function(post){ %>
+        <b><h1 style = "font-family: arial"><%= post.title %></h1></b>
+        <p> <%= post.content.substring(0,100) + "..." %>
+          <a href="/codingdoubts.html/<%= post.title %>">Read More</a>
+        </p>
+      <% }); %>
+    </div>
+<%- include("partials/footer") -%>

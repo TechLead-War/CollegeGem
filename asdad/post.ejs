@@ -1,0 +1,34 @@
+<%- include("partials/header") -%>
+<script type="text/javascript">
+  document.getElementsByTagName("body")[0].setAttribute("style", "margin-left: 5%");
+</script>
+<style media="screen">
+  .form-control{
+    width: 80%;
+  }
+  .btn-primary:hover {
+    background-color: green;
+  }
+  .btn-primary:hover :after{
+    content: " >> "
+  }
+</style>
+  <h1><%= title %></h1>
+  <p><%= content %></p>
+  <hr>
+  <p>
+
+  </p>
+  <div class="alert alert-danger" role="alert">
+    Login first to answer!
+  </div>
+  <form class="form-group" action="/codingdoubts.html/post" method="post">
+    <div class="form-group">
+      <label>Add Answer</label>
+      <textarea class = "form-control inputs" name = "content" rows="5" cols="30"></textarea>
+      <br>
+    </div>
+    <button type="submit" name="button" class ="btn btn-primary"><span>Add Answer</span></button>
+  </form>
+  <hr>
+<%- include("partials/footer") -%>
