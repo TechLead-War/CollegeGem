@@ -1,0 +1,17 @@
+body{
+  padding-left: 10%;
+}
+.titles{
+  font-size: 30px;
+}
+
+.inputs{
+  width: 85%;
+  border-radius: 8px;
+}
+
+.navbar-brand{
+  font-family: Fredericka the Great;
+  font-size: 40px;
+  padding-left: 2%;
+}

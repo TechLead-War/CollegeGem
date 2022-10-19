@@ -1,0 +1,135 @@
+.navbar-brand{
+  font-family: Fredericka the Great;
+  font-size: 40px;
+  padding-left: 2%;
+}
+
+.imgg{
+  width: 300px;
+  height: 650px;
+}
+
+.feature-box{   /*Extra space at right and left side.*/
+  color: antiquewhite;
+  width: 300px;
+  height: 300px;
+  background: #787878;
+}
+
+.feature-box2{   /*Middle box with content*/
+  color: antiquewhite;
+  background: rgb(77, 77, 74);
+  width: 400px;
+  height: 300px;
+}
+
+.footerr{
+  font-family: Pacifico;
+  background-color: #8d93ab;
+}
+
+.addresss{
+  font-family: Black And White Picture;
+  font-size: 20px;
+}
+
+.notess{
+  padding-left: 40px;
+  font-size: 50px;
+  font-family: Dancing Script;
+}
+
+.note{
+  padding-left: 40px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.teams a{
+  padding: 15px;
+  color: grey;
+  font-size: 20px;
+}
+.teams a:hover{
+  text-decoration: none;
+  color: aqua;
+}
+.teamss{
+  background-color: #f6f5f5;
+}
+
+.avatar img{
+    width: 60%;
+    height: 60%;
+}
+
+.glow{
+  font-size: 30px;
+  font-family: Pacifico;
+  color: red;
+
+}
+
+#post-new{
+  padding-left: 60%;
+}
+
+@media (min-width: 768px){
+  .glow {
+    font-size: 30px;
+    font-family: Pacifico;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+
+  @keyframes glow { 
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .imgg{
+    width: 200px;
+    height: 300px;
+  }
+
+  .feature-box{
+    color: antiquewhite;
+    width: 100px;
+    height: 1px;
+    background: #787878;
+  }
+
+  .feature-box2{
+    color: antiquewhite;
+    background: rgb(77, 77, 74);
+    width: 500px;
+    height: 550px;
+  }
+
+  .avatar img{
+      width: 30%;
+      height: 30%;
+  }
+
+  #post-new{
+    padding-left: 35%;
+  }
+
+  .notess{
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: Dancing Script;
+  }
+
+}
