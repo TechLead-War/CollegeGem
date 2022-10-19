@@ -1,0 +1,39 @@
+.container {
+  border-radius: 5px;
+  background-color: #d6e0ff;
+  padding: 20px;
+}
+
+.contt{
+  background-color: #d2e603;
+  font-family: cursive;
+}
+
+.contee{
+  background-color: dimgrey;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
